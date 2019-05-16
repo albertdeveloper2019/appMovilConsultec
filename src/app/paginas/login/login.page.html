@@ -1,0 +1,41 @@
+
+<ion-content padding>
+        <!-- se define un grid para el control absoluto del login -->
+        <ion-grid class="MarginGrid" fixed>
+              <ion-row>
+                  <ion-col size="12">
+                        <ion-item>
+                            <ion-icon name="person"></ion-icon> 
+                            <ion-input clearInput value="" class="MarginInput" >   </ion-input>                            
+                        </ion-item>
+                  </ion-col>
+              </ion-row>
+              <ion-row>
+                  <ion-col size="12">
+                      <ion-item>
+                          <ion-icon name="lock"></ion-icon> 
+                          <ion-input class="MarginInput" type ="password" placeholder="Contraseña"></ion-input>
+                      </ion-item>
+                 </ion-col>
+              </ion-row>
+              <ion-row>
+                  <ion-col size="12">
+                      <ion-button class="MarginButton" color="azulButton" text-capitalize expand="full">Entrar</ion-button>    
+                  </ion-col>          
+              </ion-row>
+              <ion-row class="MarginLabel">
+                  <ion-col size="12">
+                         <ion-label color="light">¿Olvidaste tu contraseña?</ion-label>
+                  </ion-col>
+              </ion-row>
+              <ion-tabs>
+                    <ion-tab-bar slot="bottom" color="azulButton">
+                        <ion-tab-button tab="mapa-ubicaciones">
+                              <ion-icon name="pin"></ion-icon>
+                              <ion-label>Ubicaciones</ion-label>
+                        </ion-tab-button>
+                    </ion-tab-bar>
+             </ion-tabs>
+
+        </ion-grid>
+</ion-content>
